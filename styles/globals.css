@@ -1,9 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display+SC&family=Quicksand&display=swap');
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/fonts/Quicksand.ttf');
+  font-style: medium;
+  font-weight: normal;
+  font-display: swap;
+}
+
+:root {
+  --header-text: 'Playfair Display SC', serif;
+  --dark-green: #002B17;
+  --med-green: #11A611;
+  --light-green: #44BD09;
+  --very-light-green: #B1FFAD;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 a {
@@ -13,4 +34,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.background_color {
+  background: var(--dark-green);
+  height: 100%;
+}
+
+.main_text {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header_text {
+  font-size: 24px;
+  font-family: 'Quicksand', sans-serif;
 }

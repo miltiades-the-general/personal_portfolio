@@ -1,0 +1,38 @@
+.headshot_image {
+    height: 500px;
+    border-radius: 4px;
+}
+
+.header_box {
+    
+}
+
+.header_box h1 {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--light-green);
+}
+
+.hero_paper {
+    width: 50%;
+}
+
+.content_div {
+
+}
+
+@media screen and (max-width: 1190px) {
+    .hero_paper {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .headshot_image {
+        height: 550px;
+    }
+
+    .content_div {
+        display: flex;
+        flex-direction: column;
+    }
+}
