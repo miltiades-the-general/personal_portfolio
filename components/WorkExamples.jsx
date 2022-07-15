@@ -15,7 +15,7 @@ const WorkExamples = () => {
           <img className={styles.meta_image} src={metaflare} alt="metaflare"/>
           <h1 className='header_text m-2'><b>Technical Executive at Metaflare</b></h1>
           <p className='main_text m-2'>Developed the website, data structures and technical needs for Metaflare. A company that consults with artists to turn their artwork into Non-Fungible Assets (NFTs). The website is built in the most modern React Js Framework and is highly responsive.</p>
-          <p>Link: <a href="http://www.meta-flare.com" target="_blank">meta-flare.com</a></p>
+          <p>Link: <a href="http://www.meta-flare.com" target="_blank" rel="noreferrer">meta-flare.com</a></p>
         </Paper>
       </ScrollAnimation>
     </div>

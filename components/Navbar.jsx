@@ -9,11 +9,11 @@ const Navbar = () => {
                 <h1 className="text-white header_text">Benjamin Gunnels</h1>
             </div>
             <div className="flex flex-row mt-10 mr-8 cursor-pointer">
-                <p className="text-white main_text ml-4">Education</p>
+                {/* <p className="text-white main_text ml-4">Education</p>
                 <p className="text-white main_text ml-4">Skills</p>
-                <Link href="https://github.com/miltiades-the-general" rel="external"><a target="_blank" className="text-white main_text ml-4">Youtube</a></Link>
-                <Link href="https://github.com/miltiades-the-general" rel="external"><a target="_blank" className="text-white main_text ml-4">Github</a></Link>
-                <Link href="https://www.linkedin.com/in/ben-gunnels-61a00b242/" rel="external"><a target="_blank" className="text-white main_text ml-4">LinkedIn</a></Link>
+                <Link href="https://github.com/miltiades-the-general" rel="external"><a target="_blank" className="text-white main_text ml-4">Youtube</a></Link> */}
+                <Link href="https://github.com/miltiades-the-general" rel="external"><a target="_blank" rel="noreferrer" className="text-white main_text ml-4">Github</a></Link>
+                <Link href="https://www.linkedin.com/in/ben-gunnels-61a00b242/" rel="external"><a target="_blank" rel="noreferrer" className="text-white main_text ml-4">LinkedIn</a></Link>
             </div>
 
         </div>

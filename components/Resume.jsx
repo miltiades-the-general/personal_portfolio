@@ -46,7 +46,7 @@ const Resume = () => {
                         <ul className='ml-4' style={{ listStyleType: "disc" }}>
                             <li>Redmond, Oregon/Thousand Oaks, California</li>
                             <li>January 2021-October 2021</li>
-                            <li>Performed Sales for Sporting Goods, shoes, and recreation equipment. Provided top-level customer service and customer accomodations. </li>
+                            <li>Performed Sales for Sporting Goods, shoes, and recreation equipment. Provided top-level customer service and customer accommodations. </li>
                             <li>Helped to manage inventory and adequate stocking on the sales floor, performed transactions for customer purchases.</li>
                             <li>Reference (Big 5 Redmond, Oregon): (541) 504-0628 </li>
                         </ul>

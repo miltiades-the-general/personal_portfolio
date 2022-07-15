@@ -11,9 +11,9 @@ import styles from './styles/eCommerce.module.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
-const eCommerce = () => {
+const ECommerce = () => {
     const { onAdd, qty } = useStateContext();
-    const { showCart, setShowCart, totalQuantities } = useStateContext();
+    const { showCart, setShowCart } = useStateContext();
 
 
     const products = data;
@@ -31,7 +31,7 @@ const eCommerce = () => {
                     <div className={`${styles.product_container} flex flex-row`}>
                         <div className='flex flex-col mt-8 mb-8 ml-8 width_ninety'>
                             {products.slice(0,3)?.map((product) => 
-                                <div className='flex flex-col'>
+                                <div className='flex flex-col' key={product.id}>
                                     <ProductCard key={product.id} product={product}/>
                                     <div className='flex flex-row mb-2 ml-auto mr-auto'>
                                         <p><b>Add:</b></p>
@@ -44,7 +44,7 @@ const eCommerce = () => {
                         </div>
                         <div className='flex flex-col mt-8 mb-8 ml-8 width_ninety'>
                             {products.slice(3,7)?.map((product) => 
-                                <div className='flex flex-col'>
+                                <div className='flex flex-col' key={product.id}>
                                     <ProductCard key={product.id} product={product}/>
                                     <div className='flex flex-row mb-2 ml-auto mr-auto'>
                                         <p><b>Add:</b></p>
@@ -55,9 +55,7 @@ const eCommerce = () => {
                                 </div>
                             )}
                         </div>
-
-                    </div>
-                            
+                    </div>      
                 </Paper>
             </ScrollAnimation>
             {showCart && 
@@ -67,4 +65,4 @@ const eCommerce = () => {
     )
 }
 
-export default eCommerce;
+export default ECommerce;

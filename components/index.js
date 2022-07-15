@@ -5,3 +5,4 @@ export { default as WorkExamples } from './WorkExamples';
 export { default as Experience } from './Experience';
 export { default as ECommerce } from './ECommerce';
 export { default as Resume } from './Resume';
+export { default as Footer } from './Footer';
