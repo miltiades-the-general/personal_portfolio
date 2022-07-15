@@ -1,0 +1,72 @@
+.image_container {
+    margin: 0;
+    margin-right: 1em;
+    /* width: min-content; */
+    height: 500px;
+}
+
+.github_link_container {
+    width: 580px;
+    height: 40px;
+    background-color: var(--bar-light-green);
+    margin-top: 1rem;
+    margin-bottom:6rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row ;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.code_container {
+    width: 100%;
+}
+
+.code_container h1 {
+    margin-top: 5rem;
+    margin-left: 21%;
+    margin-right: auto;
+}
+
+.link_bar {
+    justify-content: space-between;
+}
+
+.meta_image {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    width: 45%;
+}
+
+.source_container {
+    transition: 1s ease-in;
+}
+
+.resume_paper {
+    width: 75%;
+    background-color: var(--very-light-green);
+}
+
+.content_paper {
+    width: 95%;
+    background-color: var(--bar-light-green);
+    padding: 2rem;
+
+}
+
+@media screen and (max-width: 800px) {
+    .examples_paper {
+        display: flex;
+        flex-direction: column;
+    }
+    .github_link_container {
+        width: 440px;
+        height: 60px;
+    }
+    .copy_button {
+        margin-left: .5rem;
+    }
+}

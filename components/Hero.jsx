@@ -23,8 +23,8 @@ const Hero = () => {
               </div>
               <ul className='ml-8 mt-2' style={{ listStyleType: 'disc' }}>
                 <li className="main_text">Pepperdine University</li>
-                <li className="main_text">Graduate Seaver College</li>
-                <li className="main_text">Sports Medicine B.S.</li>
+                <li className="main_text">Graduate of Seaver College</li>
+                <li className="main_text">Degree in Sports Medicine B.S.</li>
                 <li className="main_text">Magna Cum Laude, 3.74 GPA</li>
                 <li className="main_text">Regents Scholar</li>
               </ul>
