@@ -15,7 +15,6 @@ const Navbar = () => {
                 <Link href="https://github.com/miltiades-the-general" rel="external"><a target="_blank" rel="noreferrer" className="text-white main_text ml-4">Github</a></Link>
                 <Link href="https://www.linkedin.com/in/ben-gunnels-61a00b242/" rel="external"><a target="_blank" rel="noreferrer" className="text-white main_text ml-4">LinkedIn</a></Link>
             </div>
-
         </div>
     )
 }

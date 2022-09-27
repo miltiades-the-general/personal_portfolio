@@ -21,7 +21,7 @@ const Experience = () => {
                                 <li>Proficient in CSS and HTML</li>
                                 <li>Experienced in web development using React and Javascript and building applications using Next JS</li>
                                 <li>Experience with Python including Financial Analysis. Portfolio Research, Algorithmic Trading, and Machine Learning</li>
-                                <li>I have worked frequently with the Material UI library to create modern responsive web-applications including components like this button: <Button sx={{ backgroundColor: "blue" }} onClick={handleClick} variant="contained">Click Me for a Helpful Alert!</Button></li>
+                                <li>I have worked frequently with the Material UI library to create modern responsive web-applications including components like this button: <Button sx={{ backgroundColor: "blue",  color: 'black' }} onClick={handleClick} variant="contained">Click Me for a Helpful Alert!</Button></li>
                             </ul>
                         </div>
                 </Paper>
