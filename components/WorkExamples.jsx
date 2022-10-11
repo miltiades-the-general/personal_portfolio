@@ -32,7 +32,7 @@ const WorkExamples = () => {
         <Paper sx={{ width: '65%', backgroundColor: 'var(--very-light-green)', marginBottom:'6rem', marginLeft:'auto', marginRight: 'auto', display: 'flex', flexDirection: 'column'}}>
           <img className={styles.meta_image} src={sanfran} alt="san francisco houses"/>
           <h1 className='header_text m-2'><b>Real Estate Affordability</b></h1>
-          <p className='main_text m-2'>An application to assess the affordability of available real estate in an area based on the area's median household income, or a users income. Front end application coming soon!</p>
+          <p className='main_text m-2'>An application to assess the affordability of available real estate in an area based on the local median household income, or a users income. Front end application coming soon!</p>
           <p className='ml-4 mb-4'><b>Github:</b><a href="https://github.com/miltiades-the-general/real_estate_affordability" target="_blank" rel="noreferrer" className='ml-2'>Real Estate Affordability</a></p>
         </Paper>
         <Paper sx={{ width: '65%', backgroundColor: 'var(--very-light-green)', marginBottom:'6rem', marginLeft:'auto', marginRight: 'auto', display: 'flex', flexDirection: 'column'}}>
