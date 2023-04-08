@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { ECommerce, Navbar, Hero, SourceCode, WorkExamples, Experience, Resume, Footer } from '../components';
+import { ECommerce, Navbar, Hero, SourceCode, WorkExamples, WorkExamplesHeader, Experience, Resume, Footer } from '../components';
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
         <Navbar/>
       </div>
       <Hero/>
+      <WorkExamplesHeader />
       <WorkExamples />
       <ECommerce />
       <Experience/>

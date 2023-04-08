@@ -42,7 +42,7 @@ const Hero = () => {
               <ul className='ml-8 mt-2 mb-6' style={{ listStyleType: 'disc' }}>
                 <li className="main_text">Computer Science</li>
                 <li className="main_text">Front End Applications</li>
-                <li className="main_text">Data-Intensive Applications</li>
+                <li className="main_text">Machine Learning</li>
                 <li className="main_text">Blockchain Technology</li>
               </ul>
             </div>

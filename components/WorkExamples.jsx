@@ -4,6 +4,7 @@ import styles from './styles/workExamples.module.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
+const marchMadness = "/march_madness_logo.png"
 const metaflare = '/metaflare.png';
 const seattle = '/seattle.jpg';
 const medium = "/medium_screenshot.png";
@@ -17,8 +18,15 @@ const WorkExamples = () => {
       {/* className same as source code, they depend on same stylesheet */}
       <ScrollAnimation className={styles.source_container} animateIn="animate__slideInDown" animateOnce="true">
         <Paper sx={{ width: '65%', backgroundColor: 'var(--very-light-green)', marginBottom:'6rem', marginLeft:'auto', marginRight: 'auto', display: 'flex', flexDirection: 'column'}}>
+          <img className={styles.meta_image} src={marchMadness} alt="metaflare"/>
+          <h1 className='header_text m-2'><b>2023 Kaggle March Machine Learning Madness</b></h1>
+          <p className='main_text m-2'>A machine learning competition to predict the outcome of the 2023 Men's and Women's March Madness tournaments</p> 
+          <p className='main_text m-2'>Built and tested a custom pipeline and machine learning model application from scratch</p> 
+          <p className='ml-4 mb-4'>Link: <a href="https://github.com/miltiades-the-general/2023_march_madness_xgboost" target="_blank" rel="noreferrer">Github</a></p>
+        </Paper>
+        <Paper sx={{ width: '65%', backgroundColor: 'var(--very-light-green)', marginBottom:'6rem', marginLeft:'auto', marginRight: 'auto', display: 'flex', flexDirection: 'column'}}>
           <img className={styles.meta_image} src={metaflare} alt="metaflare"/>
-          <h1 className='header_text m-2'><b>Software Engineer at Metaflare</b></h1>
+          <h1 className='header_text m-2'><b>Web Developer for meta-flare.com</b></h1>
           <p className='main_text m-2'>Developed the website, data structures and technical needs for Metaflare. A company that consults with artists to turn their artwork into Non-Fungible Assets (NFTs). The website is built in the most modern React Js Framework and is highly responsive.</p>
           <p className='ml-4 mb-4'>Link: <a href="http://www.meta-flare.com" target="_blank" rel="noreferrer">meta-flare.com</a></p>
         </Paper>
