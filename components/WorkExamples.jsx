@@ -4,7 +4,8 @@ import styles from './styles/workExamples.module.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
-const marchMadness = "/march_madness_logo.png"
+const cityTrans = '/city_trans_demo.png';
+const marchMadness = "/march_madness_logo.png";
 const metaflare = '/metaflare.png';
 const seattle = '/seattle.jpg';
 const medium = "/medium_screenshot.png";
@@ -17,6 +18,13 @@ const WorkExamples = () => {
     <div>
       {/* className same as source code, they depend on same stylesheet */}
       <ScrollAnimation className={styles.source_container} animateIn="animate__slideInDown" animateOnce="true">
+        <Paper sx={{ width: '65%', backgroundColor: 'var(--very-light-green)', marginBottom:'6rem', marginLeft:'auto', marginRight: 'auto', display: 'flex', flexDirection: 'column'}}>
+          <img className={styles.meta_image} src={cityTrans} alt="metaflare"/>
+          <h1 className='header_text m-2'><b>City Trans</b></h1>
+          <p className='main_text m-2'>An application that uses public transportation APIs to provide users with a network of America's public train transportation.</p> 
+          <p className='main_text m-2'>Leverages MapBox Api, and Open Api to deliver a detailed map base, and train information respectively.</p> 
+          <p className='ml-4 mb-4'>Link: <a href="https://github.com/miltiades-the-general/city_transit" target="_blank" rel="noreferrer">Github</a></p>
+        </Paper>
         <Paper sx={{ width: '65%', backgroundColor: 'var(--very-light-green)', marginBottom:'6rem', marginLeft:'auto', marginRight: 'auto', display: 'flex', flexDirection: 'column'}}>
           <img className={styles.meta_image} src={marchMadness} alt="metaflare"/>
           <h1 className='header_text m-2'><b>2023 Kaggle March Machine Learning Madness</b></h1>
@@ -60,6 +68,7 @@ const WorkExamples = () => {
           <h1 className='header_text m-2'><b>Medium Articles and Data Analysis</b></h1>
           <p className='main_text m-2'>Data Analysis Notebooks, Articles and Walkthroughs on the topics of Baseball and Real Estate, so far.</p>
           <ul className='mt-2 mb-2 ml-8' style={{ listStyleType: 'disc' }}>
+            <a href="https://medium.com/@miltiadesgeneral/predicting-the-mens-and-women-s-march-madness-tournament-for-2023-using-xgboost-f5b1d8982aa8" target="_blank" rel="noreferrer"><li className="main_text">Predicting the Men’s and Women’s March Madness Tournament for 2023 Using XGBoost</li></a>
             <a href="https://medium.com/@miltiadesgeneral/mlb-team-payroll-value-analysis-using-python-for-the-2021-season-c85b5aff61e5" target="_blank" rel="noreferrer"><li className="main_text">MLB Team Payroll-Value Analysis using Python for the 2021 Season</li></a>
             <a href="https://medium.com/@miltiadesgeneral/mlb-player-value-analysis-for-the-2021-season-using-python-4cd80f3ba9fd" target="_blank" rel="noreferrer"><li className="main_text">MLB Player-Value analysis for the 2021 Season using Python</li></a>
             <a href="https://medium.com/@miltiadesgeneral/affordability-of-real-estate-for-the-top-10-most-populous-zip-codes-in-the-united-states-78ebf039d5f" target="_blank" rel="noreferrer"><li className="main_text">Affordability of Real Estate for the top 10 most populous zip codes in the United States</li></a>

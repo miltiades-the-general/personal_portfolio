@@ -16,9 +16,10 @@ const Resume = () => {
                         <p className='main_text font-bold mt-2'>UC Berkeley Coding Bootcamp</p>
                         <ul className='ml-4' style={{ listStyleType: "disc" }}>
                             <li>June 2022-Present</li>
-                            <li>Financial Analysis using Python</li>
-                            <li>Pandas Data Manipulation</li>
+                            <li>Financial Analysis using Python and Machine Learning</li>
+                            <li>Data Analysis Using Pandas</li>
                             <li>NFT Volatility Analysis</li>
+                            <li>Full Stack Web 3.0 Application</li>
                         </ul>
                         <p className='main_text font-bold mt-2'>Pepperdine University</p>
                         <ul className='ml-4' style={{ listStyleType: "disc" }}>
@@ -76,6 +77,7 @@ const Resume = () => {
                     <Paper className={`${styles.content_paper} mb-4`}>
                         <p className='main_text font-bold mt-2'>Projects</p>
                         <ul className='ml-4' style={{ listStyleType: "disc" }}>
+                            <li>Randleword: <a  style={{ color: 'blue' }} href="https://github.com/miltiades-the-general/randleword" rel="noreferrer" target="_blank">https://github.com/miltiades-the-general/randleword</a></li>
                             <li>Loan Analyzer: <a  style={{ color: 'blue' }} href="https://github.com/miltiades-the-general/loan_analyzer" rel="noreferrer" target="_blank">https://github.com/miltiades-the-general/loan_analyzer</a></li>
                             <li>Loan Qualifier: <a style={{ color: 'blue' }} href="https://github.com/miltiades-the-general/modular_loan_qualifier" rel="noreferrer" target="_blank">https://github.com/miltiades-the-general/modular_loan_qualifier</a></li>
                             <li>Portfolio Management tool: <a  style={{ color: 'blue' }} href="https://github.com/miltiades-the-general/portfolio_management_tool" rel="noreferrer" target="_blank">https://github.com/miltiades-the-general/portfolio_management_tool</a></li>
